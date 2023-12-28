@@ -2,7 +2,11 @@ module github.com/bondzai/protocraft
 
 go 1.21.5
 
-require github.com/spf13/viper v1.18.2
+require (
+	github.com/spf13/viper v1.18.2
+	gorm.io/driver/postgres v1.5.4
+	gorm.io/gorm v1.25.5
+)
 
 require (
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
@@ -32,6 +36,4 @@ require (
 	golang.org/x/text v0.14.0 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	gorm.io/driver/postgres v1.5.4 // indirect
-	gorm.io/gorm v1.25.5 // indirect
 )
