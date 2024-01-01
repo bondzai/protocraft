@@ -1,7 +1,8 @@
 version: '3'
 
 tasks:
-  hello:
+  tidy:
     cmds:
-      - echo 'Hello World from Task!'
+      - echo 'go mod tidy...'
+      - go mod tidy
     silent: true
